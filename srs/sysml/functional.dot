@@ -31,6 +31,8 @@ digraph G {
   g3 -> r8;
   r16 [label=<<b>REQ-FUNC-016</b> · Тренировка трудных карточек>];
   g3 -> r16;
+  r20 [label=<<b>REQ-FUNC-020</b> · Озвучивание слова>, fillcolor="#fef3c7"];
+  g3 -> r20;
   g4 [label=<<font point-size="11">«requirement»</font><br/><b>Цели, серии, статистика</b>>, fillcolor="#e2e8f0"];
   root -> g4;
   r9 [label=<<b>REQ-FUNC-009</b> · Дневная цель>];
@@ -45,6 +47,8 @@ digraph G {
   g4 -> r17;
   r18 [label=<<b>REQ-FUNC-018</b> · Экран «Сегодня»>];
   g4 -> r18;
+  r19 [label=<<b>REQ-FUNC-019</b> · Предупреждение о серии>, fillcolor="#fef3c7"];
+  g4 -> r19;
   g5 [label=<<font point-size="11">«requirement»</font><br/><b>Уведомления</b>>, fillcolor="#e2e8f0"];
   root -> g5;
   r14 [label=<<b>REQ-FUNC-014</b> · Напоминание по e-mail>];

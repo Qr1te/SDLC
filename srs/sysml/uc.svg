@@ -19,6 +19,12 @@
 <line x1="430" y1="430" x2="540" y2="430" stroke="#334155" stroke-width="1.4" stroke-dasharray="7 5" marker-end="url(#ar)"/>
 <rect x="437" y="408" width="76" height="17" fill="#fff"/>
 <text x="475" y="424.2" text-anchor="middle" font-size="12" font-weight="normal">«include»</text>
+<line x1="550" y1="505" x2="400" y2="445" stroke="#334155" stroke-width="1.4" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<rect x="437" y="456" width="76" height="17" fill="#fff"/>
+<text x="475" y="472.2" text-anchor="middle" font-size="12" font-weight="normal">«extend»</text>
+<line x1="515" y1="588" x2="438" y2="572" stroke="#334155" stroke-width="1.4" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<rect x="437" y="554" width="76" height="17" fill="#fff"/>
+<text x="475" y="570.2" text-anchor="middle" font-size="12" font-weight="normal">«extend»</text>
 <ellipse cx="330" cy="80" rx="95.0" ry="28.0" fill="#fff" stroke="#334155" stroke-width="1.5"/>
 <text x="330" y="85.2" text-anchor="middle" font-size="15" font-weight="normal">Войти в систему</text>
 <ellipse cx="330" cy="160" rx="105.0" ry="28.0" fill="#fff" stroke="#334155" stroke-width="1.5"/>
@@ -44,6 +50,11 @@
 <ellipse cx="330" cy="735" rx="105.0" ry="28.0" fill="#fff" stroke="#334155" stroke-width="1.5"/>
 <text x="330" y="731.2" text-anchor="middle" font-size="15" font-weight="normal">Получить напоминание</text>
 <text x="330" y="749.2" text-anchor="middle" font-size="15" font-weight="normal">о занятии</text>
+<ellipse cx="620" cy="510" rx="95.0" ry="28.0" fill="#fff" stroke="#334155" stroke-width="1.5"/>
+<text x="620" y="515.2" text-anchor="middle" font-size="15" font-weight="normal">Озвучить слово</text>
+<ellipse cx="620" cy="590" rx="105.0" ry="28.0" fill="#fff" stroke="#334155" stroke-width="1.5"/>
+<text x="620" y="586.2" text-anchor="middle" font-size="15" font-weight="normal">Увидеть предупреждение</text>
+<text x="620" y="604.2" text-anchor="middle" font-size="15" font-weight="normal">о риске потери серии</text>
 <g stroke="#334155" stroke-width="2" fill="#fff"><circle cx="70" cy="300" r="13"/><path d="M70 313V355M44 330H96M70 355L50 388M70 355L90 388" fill="none"/></g>
 <text x="70" y="412.9" text-anchor="middle" font-size="14" font-weight="normal">Учащийся</text>
 <rect x="790" y="705" width="120" height="56" fill="#f1f5f9" stroke="#334155" stroke-width="1.5"/>

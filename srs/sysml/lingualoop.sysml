@@ -1,5 +1,5 @@
 package LinguaLoopRequirements {
-    doc /* Требования к веб-приложению LinguaLoop (трекер изучения языков). Версия 0.1. */
+    doc /* Требования к веб-приложению LinguaLoop (трекер изучения языков). Версия 0.2 (после рецензирования). */
 
     import ScalarValues::*;
 
@@ -76,6 +76,10 @@ package LinguaLoopRequirements {
                 doc /* Тренировка трудных карточек. */
                 attribute :>> priority = "Could";
             }
+            requirement <'REQ-FUNC-020'> func020 : FunctionalRequirement {
+                doc /* Озвучивание слова. */
+                attribute :>> priority = "Could";
+            }
         }
 
         requirement goalsAndStats {
@@ -101,6 +105,10 @@ package LinguaLoopRequirements {
             }
             requirement <'REQ-FUNC-018'> func018 : FunctionalRequirement {
                 doc /* Экран «Сегодня». */
+                attribute :>> priority = "Should";
+            }
+            requirement <'REQ-FUNC-019'> func019 : FunctionalRequirement {
+                doc /* Предупреждение о риске потери серии. */
                 attribute :>> priority = "Should";
             }
         }
