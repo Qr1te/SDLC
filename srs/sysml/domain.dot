@@ -1,0 +1,16 @@
+digraph G {
+  rankdir=TB; nodesep=0.3; ranksep=0.7;
+  node [shape=plain, fontname="Helvetica", fontsize=14];
+  edge [color="#334155", fontname="Helvetica", fontsize=12, arrowhead=none, labeldistance=1.6];
+  User [label=<<table border="1" cellborder="0" cellspacing="0" cellpadding="3" color="#334155"><tr><td bgcolor="#e2e8f0"><b>User</b></td></tr><hr/><tr><td align="left">id, email, passwordHash, timezone,<br align="left"/>dailyGoal, newCardsLimit, reminderTime<br align="left"/></td></tr></table>>];
+  Course [label=<<table border="1" cellborder="0" cellspacing="0" cellpadding="3" color="#334155"><tr><td bgcolor="#e2e8f0"><b>Course</b></td></tr><hr/><tr><td align="left">id, language, level, archived<br align="left"/></td></tr></table>>];
+  Deck [label=<<table border="1" cellborder="0" cellspacing="0" cellpadding="3" color="#334155"><tr><td bgcolor="#e2e8f0"><b>Deck</b></td></tr><hr/><tr><td align="left">id, name<br align="left"/></td></tr></table>>];
+  Card [label=<<table border="1" cellborder="0" cellspacing="0" cellpadding="3" color="#334155"><tr><td bgcolor="#e2e8f0"><b>Card</b></td></tr><hr/><tr><td align="left">id, front, back, transcription, example,<br align="left"/>tags, state, easiness, repetitions,<br align="left"/>intervalDays, dueDate, suspended<br align="left"/></td></tr></table>>];
+  ReviewLog [label=<<table border="1" cellborder="0" cellspacing="0" cellpadding="3" color="#334155"><tr><td bgcolor="#e2e8f0"><b>ReviewLog</b></td></tr><hr/><tr><td align="left">id, reviewedAt, quality,<br align="left"/>previousInterval, newInterval<br align="left"/></td></tr></table>>];
+  DailyActivity [label=<<table border="1" cellborder="0" cellspacing="0" cellpadding="3" color="#334155"><tr><td bgcolor="#e2e8f0"><b>DailyActivity</b></td></tr><hr/><tr><td align="left">id, date, reviews, correct,<br align="left"/>newCards, goalReached<br align="left"/></td></tr></table>>];
+  User -> Course [taillabel="1", headlabel="0..*"];
+  Course -> Deck [taillabel="1", headlabel="0..*"];
+  Deck -> Card [taillabel="1", headlabel="0..*"];
+  Card -> ReviewLog [taillabel="1", headlabel="0..*"];
+  User -> DailyActivity [taillabel="1", headlabel="0..*"];
+}
